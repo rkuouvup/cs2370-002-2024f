@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		575D51882CBEDD740070198C /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D51872CBEDD740070198C /* main.cpp */; };
+		575D51942CBEDDAC0070198C /* TimeHrMn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D518E2CBEDDAC0070198C /* TimeHrMn.cpp */; };
+		575D51952CBEDDAC0070198C /* r_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D518F2CBEDDAC0070198C /* r_main.cpp */; };
+		575D51962CBEDDAC0070198C /* t_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D51902CBEDDAC0070198C /* t_main.cpp */; };
+		575D51972CBEDDAC0070198C /* restaurant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D51932CBEDDAC0070198C /* restaurant.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,12 @@
 
 /* Begin PBXFileReference section */
 		575D51842CBEDD740070198C /* cs2370-002-2024f */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs2370-002-2024f"; sourceTree = BUILT_PRODUCTS_DIR; };
-		575D51872CBEDD740070198C /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		575D518E2CBEDDAC0070198C /* TimeHrMn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TimeHrMn.cpp; sourceTree = "<group>"; };
+		575D518F2CBEDDAC0070198C /* r_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = r_main.cpp; sourceTree = "<group>"; };
+		575D51902CBEDDAC0070198C /* t_main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = t_main.cpp; sourceTree = "<group>"; };
+		575D51912CBEDDAC0070198C /* restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = restaurant.h; sourceTree = "<group>"; };
+		575D51922CBEDDAC0070198C /* TimeHrMn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHrMn.h; sourceTree = "<group>"; };
+		575D51932CBEDDAC0070198C /* restaurant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = restaurant.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +65,12 @@
 		575D51862CBEDD740070198C /* cs2370-002-2024f */ = {
 			isa = PBXGroup;
 			children = (
-				575D51872CBEDD740070198C /* main.cpp */,
+				575D518F2CBEDDAC0070198C /* r_main.cpp */,
+				575D51932CBEDDAC0070198C /* restaurant.cpp */,
+				575D51912CBEDDAC0070198C /* restaurant.h */,
+				575D51902CBEDDAC0070198C /* t_main.cpp */,
+				575D518E2CBEDDAC0070198C /* TimeHrMn.cpp */,
+				575D51922CBEDDAC0070198C /* TimeHrMn.h */,
 			);
 			path = "cs2370-002-2024f";
 			sourceTree = "<group>";
@@ -119,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				575D51882CBEDD740070198C /* main.cpp in Sources */,
+				575D51972CBEDDAC0070198C /* restaurant.cpp in Sources */,
+				575D51962CBEDDAC0070198C /* t_main.cpp in Sources */,
+				575D51942CBEDDAC0070198C /* TimeHrMn.cpp in Sources */,
+				575D51952CBEDDAC0070198C /* r_main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
