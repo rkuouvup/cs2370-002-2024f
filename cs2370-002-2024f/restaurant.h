@@ -5,7 +5,7 @@
 #include <cstdlib>
 using namespace std;
 
-class Restaurant {
+/*class Restaurant {
   private:
     string name;
     int rating;
@@ -19,7 +19,7 @@ class Restaurant {
     void SetRating(int rating);
     static int GetNextId();
     void Print();
-};
+};*/
 
 
 #endif
