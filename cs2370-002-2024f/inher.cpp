@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 using namespace std;
 
 class Business {
@@ -9,7 +10,8 @@ protected:
 public:
     void SetName(string name) { this->name = name; }
     void SetAddress(string myaddress) {this->address = myaddress; }
-    string GetDescription() const {
+    /*virtual string GetDescription() const = 0;*/
+    virtual string GetDescription() const {
         return name + " -- " + address;
     }
 };
@@ -21,19 +23,56 @@ public:
     void SetRating(int myrating) {this->rating = myrating; }
     int GetRating() const {return rating;}
     string GetDescription() const {
-        return Business::GetDescription() +
-        "\n  Rating: " + to_string(rating);
+        //return Business::GetDescription() +
+        return "\n  Rating: " + to_string(rating);
     }
     void PrintRDescription() {
         cout << name << " -- " << address << rating << endl;
     }
 };
 
+class Foo {
+public:
+    string Description() {return "foo";}
+};
+
+
+/*void DriveTo(Business *bptr) {
+    cout << "Drive to " << bptr->GetDescription() << endl;
+}*/
+
 
 int main() {
-    Business b;
-    Restaurant r1;
+    vector<Business*> blist;
     
+    /*Business* bptr = new Business;
+    bptr->SetName("Godiva");
+    bptr->SetAddress("some address");
+    blist.push_back(bptr);*/
+    
+    Restaurant* rptr = new Restaurant;
+    rptr->SetName("Five Guys");
+    rptr->SetAddress("University Place");
+    rptr->SetRating(4);
+    blist.push_back(rptr);
+    
+    Restaurant *rptr2 = new Restaurant;
+    rptr2->SetName("Lovely Pho");
+    rptr2->SetAddress("some mall");
+    rptr2->SetRating(5);
+    blist.push_back(rptr2);
+    
+    //Foo* f = new Foo;
+    //blist.push_back(f);
+    
+    for (int i = 0; i < blist.size(); i++) {
+        cout << blist.at(i)->GetDescription() << endl;
+    }
+    
+    
+    /*Business b;
+    Restaurant r1;
+
     b.SetName("Godiva"s);
     b.SetAddress("some address"s);
     
@@ -41,7 +80,8 @@ int main() {
     r1.SetAddress("University Place"s);
     r1.SetRating(4);
     
-    cout << b.GetDescription() << endl;
-    cout << r1.GetDescription() << endl;
+    DriveTo(&b);
+    DriveTo(&r1);   //======= b: name -- address
+                    //======= r: name -- adress: rating*/
     return 0;
 }
