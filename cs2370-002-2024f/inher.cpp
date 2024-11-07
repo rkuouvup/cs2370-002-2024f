@@ -23,8 +23,8 @@ public:
     void SetRating(int myrating) {this->rating = myrating; }
     int GetRating() const {return rating;}
     string GetDescription() const {
-        //return Business::GetDescription() +
-        return "\n  Rating: " + to_string(rating);
+        return Business::GetDescription() +
+        "\n  Rating: " + to_string(rating);
     }
     void PrintRDescription() {
         cout << name << " -- " << address << rating << endl;
