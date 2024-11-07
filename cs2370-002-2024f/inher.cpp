@@ -42,13 +42,13 @@ public:
 }*/
 
 
-int main() {
+/*int main() {
     vector<Business*> blist;
     
-    /*Business* bptr = new Business;
-    bptr->SetName("Godiva");
-    bptr->SetAddress("some address");
-    blist.push_back(bptr);*/
+    //Business* bptr = new Business;
+    //bptr->SetName("Godiva");
+    //bptr->SetAddress("some address");
+    //blist.push_back(bptr);
     
     Restaurant* rptr = new Restaurant;
     rptr->SetName("Five Guys");
@@ -70,18 +70,18 @@ int main() {
     }
     
     
-    /*Business b;
-    Restaurant r1;
+    //Business b;
+    //Restaurant r1;
 
-    b.SetName("Godiva"s);
-    b.SetAddress("some address"s);
+    //b.SetName("Godiva"s);
+    //b.SetAddress("some address"s);
     
-    r1.SetName("Five Guys"s);
-    r1.SetAddress("University Place"s);
-    r1.SetRating(4);
+    //r1.SetName("Five Guys"s);
+    //r1.SetAddress("University Place"s);
+    //r1.SetRating(4);
     
-    DriveTo(&b);
-    DriveTo(&r1);   //======= b: name -- address
-                    //======= r: name -- adress: rating*/
+    //DriveTo(&b);
+    //DriveTo(&r1);   //======= b: name -- address
+                    //======= r: name -- adress: rating
     return 0;
-}
+}*/
