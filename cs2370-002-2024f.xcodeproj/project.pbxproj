@@ -12,6 +12,7 @@
 		575D51962CBEDDAC0070198C /* t_main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D51902CBEDDAC0070198C /* t_main.cpp */; };
 		575D51972CBEDDAC0070198C /* restaurant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 575D51932CBEDDAC0070198C /* restaurant.cpp */; };
 		57825EB42CD2C41B00C090A6 /* inher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57825EB32CD2C40800C090A6 /* inher.cpp */; };
+		57825EEB2CE541FA00C090A6 /* shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57825EEA2CE541F300C090A6 /* shape.cpp */; };
 		57F7D0322CC0468E006A5BB4 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F7D0312CC0468A006A5BB4 /* LinkedList.cpp */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		575D51922CBEDDAC0070198C /* TimeHrMn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeHrMn.h; sourceTree = "<group>"; };
 		575D51932CBEDDAC0070198C /* restaurant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = restaurant.cpp; sourceTree = "<group>"; };
 		57825EB32CD2C40800C090A6 /* inher.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = inher.cpp; sourceTree = "<group>"; };
+		57825EEA2CE541F300C090A6 /* shape.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = shape.cpp; sourceTree = "<group>"; };
 		57F7D0302CC04670006A5BB4 /* LinkedListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListNode.h; sourceTree = "<group>"; };
 		57F7D0312CC0468A006A5BB4 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				57825EB32CD2C40800C090A6 /* inher.cpp */,
+				57825EEA2CE541F300C090A6 /* shape.cpp */,
 				57F7D0302CC04670006A5BB4 /* LinkedListNode.h */,
 				57F7D0312CC0468A006A5BB4 /* LinkedList.cpp */,
 				575D518F2CBEDDAC0070198C /* r_main.cpp */,
@@ -145,6 +148,7 @@
 				57825EB42CD2C41B00C090A6 /* inher.cpp in Sources */,
 				57F7D0322CC0468E006A5BB4 /* LinkedList.cpp in Sources */,
 				575D51942CBEDDAC0070198C /* TimeHrMn.cpp in Sources */,
+				57825EEB2CE541FA00C090A6 /* shape.cpp in Sources */,
 				575D51952CBEDDAC0070198C /* r_main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
